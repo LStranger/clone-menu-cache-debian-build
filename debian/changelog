@@ -1,3 +1,14 @@
+menu-cache (0.4.0-0.1) unstable; urgency=low
+
+  * Changing to new upstream version 0.4.0.
+  * Renaming libmenu-cache1-dev into proper unversioned package.
+  * Adding libmenu-cache-doc package.
+  * Adding suggestion on libmenu-cache-doc package from libmenu-cache-dev.
+  * Adding libmenu-cache-dbg package.
+  * Changing libmenu-cache1 into libmenu-cache2 due to ABI change.
+
+ -- Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>  Wed, 07 Nov 2012 22:00:00 +0200
+
 menu-cache (0.3.3-1) unstable; urgency=low
 
   * Merging upstream version 0.3.3.

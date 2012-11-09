@@ -9,7 +9,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=-all
 	dh ${@} --with autotools_dev
 
 override_dh_auto_configure:
-	dh_auto_configure -- --libexecdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)/libmenu-cache1/libexec --enable-gtk-doc
+	dh_auto_configure -- --libexecdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)/libmenu-cache2/libexec --enable-gtk-doc
 
 override_dh_auto_install:
 	dh_auto_install
@@ -23,5 +23,5 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_strip:
-	dh_strip -plibmenu-cache1 --dbg-package=libmenu-cache-dbg
-	dh_strip -Nlibmenu-cache1
+	dh_strip -plibmenu-cache2 --dbg-package=libmenu-cache-dbg
+	dh_strip -Nlibmenu-cache2

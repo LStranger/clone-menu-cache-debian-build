@@ -1,3 +1,17 @@
+menu-cache (0.5.0-0.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+
+  * Changing to new upstream version 0.5.0.
+  * <gilir@ubuntu.com>: Add breaks/conflicts for libmenu-cache1-dev.
+  * Adding new package libmenu-cache-bin: binaries should not come with library.
+  * Removing --libexecdir from configure parameters.
+  * Changing libmenu-cache2 into libmenu-cache3 due to ABI change.
+  * Correcting libmenu-cache1-dev to oldlibs/extra.
+  * Enabling hardening.
+
+ -- Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>  Mon, 08 Jul 2013 23:00:00 +0300
+
 menu-cache (0.4.0-0.1) unstable; urgency=low
 
   * Changing to new upstream version 0.4.0.
